@@ -1,0 +1,20 @@
+{
+  "name": "nuxt-apollo-3-slow-ssr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:negezor/nuxt-apollo-3-slow-ssr.git",
+  "author": "Negezor <negezor@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@apollo/client": "^3.3.21",
+    "@vue/apollo-composable": "4.0.0-alpha.12",
+    "@vue/apollo-ssr": "^4.0.0-alpha.13",
+    "@vue/composition-api": "^1.0.1",
+    "cross-fetch": "^3.1.4",
+    "graphql": "^15.5.1",
+    "nuxt": "npm:nuxt-edge"
+  },
+  "scripts": {
+    "dev": "nuxt dev"
+  }
+}
